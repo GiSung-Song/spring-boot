@@ -26,7 +26,7 @@ notifications:
 before_deploy:
   - zip -r spring-boot *
   - mkdir -p deploy
-  - mv freelec-springboot2-webservice.zip deploy/freelec-springboot2-webservice.zip
+  - mv spring-boot.zip deploy/spring-boot.zip
 
 deploy:
   - provider : S3
