@@ -5,7 +5,7 @@ ABSDIR=$(dirname $ABSPATH)
 source ${ABSDIR}/profile.sh
 
 function switch_proxy() {
-  IDEL_PORT=$(find_idle_port)
+  IDLE_PORT=$(find_idle_port)
 
   echo "> 전환할Port : $IDLE_PORT"
   echo "> Port 전환"
